@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+Attdocument.addEventListener('DOMContentLoaded', () => {
     // Check if user is logged in
     if (localStorage.getItem('isLoggedIn') !== 'true') {
         window.location.href = 'login.html';
@@ -18,8 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
         let add=document.querySelector("featured-books");
         let divi=document.createElement("div");
         divi.setAttribute("class","book card");
-        divi.createElement("img");
-        divi
+        divi.createElement("img").setAttribute("src","https://i.pinimg.com/originals/cb/b2/e9/cbb2e9e16a9c7b4b75ba5ff18024bab3.jpg");
+        divi.createElement("h3").innnerHTML=bookTitle;
+        divi.createElement("p").innnerHTML=description;
+        add.append("divi");
+    
         // In a real application, you would send this data to a server
         console.log('Adding book:', { bookTitle, author, price, description });
         alert('Book added successfully!');
