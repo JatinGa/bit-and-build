@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const price = document.getElementById('price').value;
         const description = document.getElementById('description').value;
 
+
+        let add=document.querySelector("featured-books");
+        let divi=document.createElement("div");
+        divi.setAttribute("class","book card");
+        divi.createElement("img");
+        divi
         // In a real application, you would send this data to a server
         console.log('Adding book:', { bookTitle, author, price, description });
         alert('Book added successfully!');
@@ -26,3 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'index.html';
     });
 });
+z
