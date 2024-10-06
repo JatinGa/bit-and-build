@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c705fa58f1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sideBar" id="sideBar">
+            <div class="profilePic">
+                <img src="img.jpg" alt="pfp">
+            </div>
+            <div class="menu">
+                <a class="option" href="#">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <span class="option-name">Notifications</span>
+                </a>
+                <a class="option" href="#">
+                    <i class="fa-solid fa-square-check fa-lg"></i>
+                    <span class="option-name">Tasks</span>
+                </a>
+                <a class="option" href="#">
+                    <i class="fa-solid fa-question fa-lg"></i>
+                    <span class="option-name">Help</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="menu-icons">
+                    <div class="grid-icon">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="floating-terminal">
+                        <div class="grid-block">
+                            <a href="link1.html"><img src="https://m.media-amazon.com/images/I/91qecQpjbGL._SL1500_.jpg" alt="Link 1"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link2.html"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680408731i/124938310.jpg" alt="Link 2"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link3.html"><img src="https://i.pinimg.com/originals/cb/b2/e9/cbb2e9e16a9c7b4b75ba5ff18024bab3.jpg" alt="Link 3"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link4.html"><img src="https://cdn2.penguin.com.au/covers/original/9781409350156.jpg" alt="Link 4"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link5.html"><img src="https://i.pinimg.com/564x/f7/c8/12/f7c812c9b0296cd9f119e33a06d9a256.jpg" alt="Link 5"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link6.html"><img src="https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/4/f2/4f24a2e1-f2a1-5264-8240-c4aaca50607a/5acb824c75eec.image.jpg" alt="Link 6"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link7.html"><img src="https://th.bing.com/th/id/R.e720f8ae47cd7dcb984c7b6812b95463?rik=vVmaTHiI1zh0%2fg&riu=http%3a%2f%2facepub.com%2fwp-content%2fuploads%2f2014%2f05%2fWarSwordsCoverDeanEdit.jpg&ehk=1HR%2foHEpv8b5v8wVtazr31nE3T7zzanJliZN303PRpo%3d&risl=&pid=ImgRaw&r=0" alt="Link 7"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link8.html"><img src="https://th.bing.com/th/id/OIP.6zFEGLyyfXbCHa-qgeDJZgHaLM?rs=1&pid=ImgDetMain.jpg" alt="Link 8"></a>
+                        </div>
+                        <div class="grid-block">
+                            <a href="link9.html"><img src="https://th.bing.com/th/id/OIP.vg9104RzANBHfYqEnqRD8wHaL1?rs=1&pid=ImgDetMain.jpg" alt="Link 9"></a>
+                        </div>
+                        <!-- Add more grid-blocks -->
+                    </div>
+
+                    <div class="site-name">Acme Bookstore</div>
+                </div>
+
+            </header>
+            
+            <!-- Dashboard Content -->
+            <section class="content-area">
+                <div class="cards">
+                    <a href="link1.html" class="card"></a>
+                    <a href="link2.html" class="card"></a>
+                    <a href="link3.html" class="card"></a>
+                </div>
+                <div class="lists">
+                    <a href="link4.html" class="list-item"></a>
+                    <a href="link5.html" class="list-item"></a>
+                    <a href="link6.html" class="list-item"></a>
+                    <a href="link7.html" class="list-item"></a>
+                </div>
+            </section>
+        </div>
+        
+
+        <!-- Floating Button -->
+        <button class="floating-button"></button>
+    </div>
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
